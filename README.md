@@ -1,6 +1,6 @@
 # Exploiting Interpretable Capabilities with Concept-Enhanced Methods
 
-This code implements Concept-Guided Conditional Diffusion, Concept-Guided ProtoPNet, Concept-Guided ProtoPools, and Prototype Concept Bottleneck Models.
+This code implements Concept-Guided Conditional Diffusion, Concept-Guided ProtoPNet, and Concept-Guided ProtoPools.
 
 ## Datasets
 
@@ -37,12 +37,12 @@ This part is adapted from previous code available here: https://github.com/cfche
   * `densenet_features.py`, `resnet_features.py`, and `vgg_features.py` contain code to load pre-trained models from ImageNet
   * `preprocess.py`, `receptive_field.py` and `helpers.py` contain helper functions for the implementation of the model and the training
   * `find_nearest.py` contains the function that finds the closest patches to the prototypes to create the concept prototype dataset
-  * `push.py` contains code to perform pushing of prototypes, whereas `pushing.py` allows to push prototypes for an already trained model
+  * `push.py` contains code to perform the pushing of prototypes, whereas `pushing.py` allows to push prototypes for an already trained model
   * `CUB_correlation.py` contains code to calculate the correlations between concepts in the CUB dataset
 * `train_and_test.py` contains the main train and testing function used in the training loop
 * `model.py` contains the CG-ProtoPNet model
 * `main.py` contains the main training algorithm
-* `prototype_dataset.py` allows to calculate the concept prototype dataset from a pre-trained model
+* `prototype_dataset.py` allows the calculation of the concept prototype dataset from a pre-trained model
 
 Command example to train a new model: 
 
@@ -65,7 +65,7 @@ This part is adapted from previous code available here: https://github.com/gmum/
   * `shared_prototypes.py` contains code to calculate the number of shared prototypes between concepts
 * `model.py` contains the CG-ProtoPools model
 * `main.py` contains the main training algorithm
-* `prototype_dataset.py` allows to calculate the concept prototype dataset from a pre-trained model
+* `prototype_dataset.py` allows the calculation of the concept prototype dataset from a pre-trained model
 
 Command example to train a new model: 
 
