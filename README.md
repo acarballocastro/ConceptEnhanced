@@ -1,4 +1,4 @@
-# Exploiting Interpretable Capabilities with Concept-Enhanced Methods
+# Exploiting Interpretable Capabilities with Concept-Enhanced Diffusion and Prototype Networks
 
 This code implements Concept-Guided Conditional Diffusion, Concept-Guided ProtoPNet, and Concept-Guided ProtoPools.
 
